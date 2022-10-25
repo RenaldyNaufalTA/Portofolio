@@ -6,8 +6,8 @@
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse px-0" id="navbarNavAltMarkup">
+            <div class="navbar-nav px-0">
                 <a class="nav-link active" href="/">Home</a>
                 <a class="nav-link active" href="/about">About</a>
                 <a class="nav-link active" href="/projects">Projects</a>

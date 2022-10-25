@@ -2,9 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\JenisKontak;
+use App\Models\User;
 use App\Models\Kontak;
 use App\Models\Projek;
+use App\Models\JenisKontak;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -16,6 +17,20 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        User::create([
+            'name' => 'admin',
+            'email' => 'admin@gmail.com',
+            'password' => bcrypt('123456'),
+            'role' => 3
+        ]);
+
+        User::create([
+            'name' => 'walas',
+            'email' => 'walas@gmail.com',
+            'password' => bcrypt('123456'),
+            'role' => 2
+        ]);
+
         // \App\Models\User::factory(10)->create();
         // JenisKontak::create([
         //     'jenis_kontak' => 'Instagram'
@@ -49,10 +64,10 @@ class DatabaseSeeder extends Seeder
         //     'id_jenis' => 3,
         //     'deskripsi' => 'Hello World'
         // ]);
-        Kontak::create([
-            'id_siswa' => 3,
-            'id_jenis' => 4,
-            'deskripsi' => 'Hello World'
-        ]);
+        // Kontak::create([
+        //     'id_siswa' => 3,
+        //     'id_jenis' => 4,
+        //     'deskripsi' => 'Hello World'
+        // ]);
     }
 }
