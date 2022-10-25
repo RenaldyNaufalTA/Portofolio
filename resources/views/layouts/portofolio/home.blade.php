@@ -3,8 +3,9 @@
 @section('content')
     <!--Hero-->
     <section class="jumbotron text-center">
-        <img id="img" src="../images/Fotodiri.jpeg" alt="Fotodiri" width="220" height="220" class="rounded-circle mt-5">
-        <h1 class="display-4 mt-4">Renaldy Naufal Tsabitul Azmi</h1>
+        <img id="img" src="../images/Fotodiri.jpeg" alt="Fotodiri" width="220" height="220"
+            class="rounded-circle mt-5">
+        <h1 class="display-4 mt-4">Renaldy Naufal T.A</h1>
         <p class="lead">12 RPL 2 | Absen 29</p>
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
