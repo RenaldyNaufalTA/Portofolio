@@ -26,13 +26,8 @@
         .navbar-brand,
         .collapse {
             padding: 5px;
-            display: inline-flex;
             text-decoration: none;
             color: white;
-        }
-
-        .collapse {
-            float: right;
         }
 
         .navbar-nav {

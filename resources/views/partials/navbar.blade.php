@@ -7,7 +7,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse px-0" id="navbarNavAltMarkup">
-            <div class="navbar-nav px-0">
+            <div class="navbar-nav ms-auto">
                 <a class="nav-link active" href="/">Home</a>
                 <a class="nav-link active" href="/about">About</a>
                 <a class="nav-link active" href="/projects">Projects</a>
