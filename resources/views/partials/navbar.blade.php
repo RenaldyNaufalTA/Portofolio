@@ -12,6 +12,8 @@
                 <a class="nav-link active" href="/about">About</a>
                 <a class="nav-link active" href="/projects">Projects</a>
                 <a class="nav-link active" href="/contact">Contact</a>
+                <a class="nav-link active" href="/login"><i class="fas fa-sign-in fa-fw mr-1"></i>
+                    Login</a>
             </div>
         </div>
     </div>
