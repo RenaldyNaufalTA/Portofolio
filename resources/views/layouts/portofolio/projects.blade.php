@@ -3,7 +3,7 @@
 @section('content')
     <!--Projects-->
     <section id="projects">
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col text-center mb-5">
                     <h2>My Projects</h2>

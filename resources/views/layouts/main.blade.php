@@ -100,7 +100,6 @@
         section {
             padding-top: 5rem;
         }
-
     </style>
 
     <title>@yield('title')</title>
@@ -112,9 +111,18 @@
 
 
     @include('partials.footer')
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    <script src="template/vendor/jquery/jquery.min.js"></script>
+    <script src="template/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="template/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="template/js/sb-admin-2.min.js"></script>
+
 </body>
 
 </html>

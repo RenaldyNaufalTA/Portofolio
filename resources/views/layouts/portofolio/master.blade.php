@@ -4,7 +4,8 @@
 
     <!--Hero-->
     <section class="jumbotron text-center">
-        <img id="img" src="../images/Fotodiri.jpeg" alt="Fotodiri" width="220" height="220" class="rounded-circle mt-5">
+        <img id="img" src="../images/Fotodiri.jpeg" alt="Fotodiri" width="220" height="220"
+            class="rounded-circle mt-5">
         <h1 class="display-4 mt-4">Renaldy Naufal Tsabitul Azmi</h1>
         <p class="lead">12 RPL 2 | Absen 29</p>
     </section>
@@ -16,7 +17,7 @@
     <!--End of hero-->
     <!--About-->
     <section id="about">
-        <div class="container">
+        <div class="container mt-5">
 
             <div class="row text-center">
                 <div class="col">

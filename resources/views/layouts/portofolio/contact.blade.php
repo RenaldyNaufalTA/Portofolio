@@ -3,7 +3,7 @@
 @section('content')
     <!--contact-->
     <section id="contact" class="mb-5">
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col text-center">
                     <h2>Contact Me</h2>
