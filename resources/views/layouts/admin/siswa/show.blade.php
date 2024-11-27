@@ -16,7 +16,7 @@
                 </div>
                 <div class="card-body">
                     <section class="text-center">
-                        <img height="175" width="175" src="storage/siswa-foto/{{ $siswa->foto }}"
+                        <img height="175" width="175" src="{{ asset('storage/siswa-foto/' . $siswa->foto) }}"
                             class="rounded-circle" alt="{{ $siswa->foto }}">
                         <h3 class="my-3 text-dark">{{ $siswa->nama }}</h3>
                     </section>

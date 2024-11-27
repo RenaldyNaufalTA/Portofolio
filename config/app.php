@@ -52,14 +52,15 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://portofoliosaya.herokuapp.com/'),
+    'url' => env('APP_URL', 'http://127.0.0.1:8000'),
 
-    'asset_url' => env('ASSET_URL', 'https://portofoliosaya.herokuapp.com/'),
+    'asset_url' => env('ASSET_URL', 'http://127.0.0.1:8000'),
 
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
     |--------------------------------------------------------------------------
+    |
     |
     | Here you may specify the default timezone for your application, which
     | will be used by the PHP date and date-time functions. We have gone
